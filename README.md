@@ -8,17 +8,12 @@
 
 Скачать и скопировать в папку GameData
 
-Перевод модов KSP
--Antenna Helper Next
+Перевод модов KSP:
 
--Contract Configurator
-
--Dynamic Battery Storage
-
--Kerbal Engineer (только подсказки (?))
-
--Near Future Exploration
-
--OPT
-
--SCANsat
+- Antenna Helper Next
+- Contract Configurator
+- Dynamic Battery Storage
+- Kerbal Engineer (только подсказки (?))
+- Near Future Exploration
+- OPT
+- SCANsat
