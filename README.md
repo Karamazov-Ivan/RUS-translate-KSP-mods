@@ -17,3 +17,5 @@
 - Near Future Exploration
 - OPT
 - SCANsat
+
+<img width="558" height="556" alt="изображение" src="https://github.com/user-attachments/assets/3c589bd0-5212-4f34-b6e0-1bb79df80953" />
