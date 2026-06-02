@@ -1,0 +1,707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSettingItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SettingItem>
+    <Name>Orbital.ApoapsisHeight</Name>
+    <Value xsi:type="xsd:string">Показывает высоту апоцентра аппарата относительно уровня моря. (Апоцентр — наивысшая точка орбиты.)</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PeriapsisHeight</Name>
+    <Value xsi:type="xsd:string">Показывает высоту перицентра аппарата относительно уровня моря. (Перицентр — наинизшая точка орбиты.)</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TimeToApoapsis</Name>
+    <Value xsi:type="xsd:string">Показывает время до достижения аппаратом апоцентра — наивысшей точки орбиты.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TimeToPeriapsis</Name>
+    <Value xsi:type="xsd:string">Показывает время до достижения аппаратом перицентра — наинизшей точки орбиты.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.Inclination</Name>
+    <Value xsi:type="xsd:string">Показывает наклонение орбиты аппарата относительно экватора.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TimeToEquatorialAscendingNode</Name>
+    <Value xsi:type="xsd:string">Показывает время до пересечения аппаратом экватора в северном направлении.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TimeToEquatorialDescendingNode</Name>
+    <Value xsi:type="xsd:string">Показывает время до пересечения аппаратом экватора в южном направлении.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.AngleToEquatorialAscendingNode</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от аппарата до пересечения экватора центрального тела в северном направлении.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.AngleToEquatorialDescendingNode</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от аппарата до пересечения экватора центрального тела в южном направлении.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.Eccentricity</Name>
+    <Value xsi:type="xsd:string">Показывает эксцентриситет орбиты аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.OrbitalSpeed</Name>
+    <Value xsi:type="xsd:string">Показывает орбитальную скорость аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.OrbitalPeriod</Name>
+    <Value xsi:type="xsd:string">Показывает время, необходимое для совершения полного оборота по орбите.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.CurrentSoi</Name>
+    <Value xsi:type="xsd:string">Показывает сферу действия (SOI) текущего небесного тела, вокруг которого обращается аппарат.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.LongitudeOfAscendingNode</Name>
+    <Value xsi:type="xsd:string">Показывает долготу восходящего узла орбиты аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.LongitudeOfPeriapsis</Name>
+    <Value xsi:type="xsd:string">Показывает долготу перицентра орбиты аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.ArgumentOfPeriapsis</Name>
+    <Value xsi:type="xsd:string">Аргумент перицентра</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TrueAnomaly</Name>
+    <Value xsi:type="xsd:string">Истинная аномалия</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.MeanAnomaly</Name>
+    <Value xsi:type="xsd:string">Средняя аномалия</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.MeanAnomalyAtEpoc</Name>
+    <Value xsi:type="xsd:string">Средняя аномалия в эпоху</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.EccentricAnomaly</Name>
+    <Value xsi:type="xsd:string">Эксцентрическая аномалия</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.SemiMajorAxis</Name>
+    <Value xsi:type="xsd:string">Показывает расстояние от центра орбиты до её самой дальней точки.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.SemiMinorAxis</Name>
+    <Value xsi:type="xsd:string">Показывает расстояние от центра орбиты до её самой ближней точки.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.AngleToPrograde</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от аппарата до пересечения орбиты центрального тела с его проградной стороны.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.AngleToRetrograde</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от аппарата до пересечения орбиты центрального тела с его ретроградной стороны.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeProgradeDeltaV</Name>
+    <Value xsi:type="xsd:string">Проградная/ретроградная составляющая полного изменения скорости.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeNormalDeltaV</Name>
+    <Value xsi:type="xsd:string">Нормальная составляющая полного изменения скорости.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeRadialDeltaV</Name>
+    <Value xsi:type="xsd:string">Радиальная составляющая полного изменения скорости.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeTotalDeltaV</Name>
+    <Value xsi:type="xsd:string">Полное изменение скорости за манёвр.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeBurnTime</Name>
+    <Value xsi:type="xsd:string">Общая продолжительность включения двигателей.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeHalfBurnTime</Name>
+    <Value xsi:type="xsd:string">Половина общей продолжительности включения двигателей.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeTimeToManoeuvre</Name>
+    <Value xsi:type="xsd:string">Время до достижения аппаратом точки манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeTimeToHalfBurn</Name>
+    <Value xsi:type="xsd:string">Время до начала выполнения манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeAngleToPrograde</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от узла до пересечения орбиты центрального тела с его проградной стороны.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.NodeAngleToRetrograde</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от узла до пересечения орбиты центрального тела с его ретроградной стороны.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PostBurnApoapsis</Name>
+    <Value xsi:type="xsd:string">Наивысшая точка орбиты аппарата после манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PostBurnPeriapsis</Name>
+    <Value xsi:type="xsd:string">Наинизшая точка орбиты аппарата после манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.SpeedAtApoapsis</Name>
+    <Value xsi:type="xsd:string">Скорость в апоцентре</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.SpeedAtPeriapsis</Name>
+    <Value xsi:type="xsd:string">Скорость в перицентре</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TimeToAtmosphere</Name>
+    <Value xsi:type="xsd:string">Время до входа аппарата в атмосферу или выхода из неё.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.AltitudeSeaLevel</Name>
+    <Value xsi:type="xsd:string">Показывает высоту аппарата над уровнем моря.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.AltitudeTerrain</Name>
+    <Value xsi:type="xsd:string">Показывает высоту аппарата над поверхностью суши или воды, или высоту над подводным рельефом при приводнении.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.VerticalSpeed</Name>
+    <Value xsi:type="xsd:string">Показывает вертикальную скорость аппарата (вверх/вниз).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.VerticalAcceleration</Name>
+    <Value xsi:type="xsd:string">Показывает вертикальное ускорение аппарата (вверх/вниз).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.HorizontalSpeed</Name>
+    <Value xsi:type="xsd:string">Показывает горизонтальную скорость аппарата относительно поверхности небесного тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.HorizontalAcceleration</Name>
+    <Value xsi:type="xsd:string">Показывает горизонтальное ускорение аппарата относительно поверхности небесного тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.MachNumber</Name>
+    <Value xsi:type="xsd:string">Число Маха</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.Latitude</Name>
+    <Value xsi:type="xsd:string">Показывает широту положения аппарата на небесном теле. Широта — это угол от экватора до полюсов.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.Longitude</Name>
+    <Value xsi:type="xsd:string">Показывает долготу аппарата на небесном теле. Долгота — это угол от нулевого меридиана тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.GeeForce</Name>
+    <Value xsi:type="xsd:string">Показывает текущую перегрузку (g-силу) и максимальную испытанную перегрузку.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.TerminalVelocity</Name>
+    <Value xsi:type="xsd:string">Показывает скорость, при которой тяга уравновешивается сопротивлением.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.AtmosphericEfficiency</Name>
+    <Value xsi:type="xsd:string">Показывает эффективность аппарата как отношение текущей скорости к терминальной. Менее 100% означает потери из-за гравитации, более 100% — из-за сопротивления.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.Biome</Name>
+    <Value xsi:type="xsd:string">Показывает биом, находящийся в данный момент под аппаратом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.Situation</Name>
+    <Value xsi:type="xsd:string">Показывает текущую научную ситуацию аппарата (Посадка, Приводнение, Полёт низко/высоко, В космосе низко/высоко).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.Slope</Name>
+    <Value xsi:type="xsd:string">Показывает уклон поверхности под аппаратом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.ImpactTime</Name>
+    <Value xsi:type="xsd:string">Показывает, через сколько времени аппарат столкнётся с поверхностью.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.ImpactLongitude</Name>
+    <Value xsi:type="xsd:string">Долгота точки падения.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.ImpactLatitude</Name>
+    <Value xsi:type="xsd:string">Широта точки падения.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.ImpactAltitude</Name>
+    <Value xsi:type="xsd:string">Высота, на которой аппарат столкнётся с поверхностью.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.ImpactBiome</Name>
+    <Value xsi:type="xsd:string">Биом, в котором аппарат столкнётся с поверхностью.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Name</Name>
+    <Value xsi:type="xsd:string">Имя текущего аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.DeltaVStaged</Name>
+    <Value xsi:type="xsd:string">Показывает дельту скорости для каждой ступени аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.DeltaVCurrent</Name>
+    <Value xsi:type="xsd:string">Показывает дельту скорости текущей ступени аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.DeltaVTotal</Name>
+    <Value xsi:type="xsd:string">Показывает полную дельту скорости аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.DeltaVCurrentTotal</Name>
+    <Value xsi:type="xsd:string">Показывает дельту скорости текущей ступени и общую дельту аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SpecificImpulse</Name>
+    <Value xsi:type="xsd:string">Суммарный удельный импульс вашего аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Mass</Name>
+    <Value xsi:type="xsd:string">Общая масса вашего аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Thrust</Name>
+    <Value xsi:type="xsd:string">Показывает текущую и максимальную тягу, которую может создать аппарат.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.ThrustToWeight</Name>
+    <Value xsi:type="xsd:string">Показывает фактическое и полное отношение тяги к весу аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.ThrustOffsetAngle</Name>
+    <Value xsi:type="xsd:string">Угловое смещение тяги из-за асимметрии аппарата и поворота двигателей.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.ThrustTorque</Name>
+    <Value xsi:type="xsd:string">Момент силы тяги из-за асимметрии аппарата и поворота двигателей.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SurfaceThrustToWeight</Name>
+    <Value xsi:type="xsd:string">Показывает отношение тяги к весу аппарата на поверхности.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Acceleration</Name>
+    <Value xsi:type="xsd:string">Показывает текущее и максимальное ускорение аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SuicideBurnAltitude</Name>
+    <Value xsi:type="xsd:string">Показывает высоту, на которой следует начинать тормозной манёвр («самоубийственное торможение»).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SuicideBurnDistance</Name>
+    <Value xsi:type="xsd:string">Показывает расстояние до точки начала тормозного манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SuicideBurnDeltaV</Name>
+    <Value xsi:type="xsd:string">Показывает дельту скорости для тормозного манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.IntakeAirUsage</Name>
+    <Value xsi:type="xsd:string">Отображает расход забортного воздуха.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.IntakeAirDemand</Name>
+    <Value xsi:type="xsd:string">Отображает требуемое количество забортного воздуха.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.IntakeAirSupply</Name>
+    <Value xsi:type="xsd:string">Отображает доступное количество забортного воздуха.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.IntakeAirDemandSupply</Name>
+    <Value xsi:type="xsd:string">Отображает соотношение между требуемым и доступным забортным воздухом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.PartCount</Name>
+    <Value xsi:type="xsd:string">Показывает общее количество деталей в текущей и следующей ступенях.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Heading</Name>
+    <Value xsi:type="xsd:string">Показывает текущий курс.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Pitch</Name>
+    <Value xsi:type="xsd:string">Показывает текущий угол тангажа.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Roll</Name>
+    <Value xsi:type="xsd:string">Показывает текущий угол крена.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.HeadingRate</Name>
+    <Value xsi:type="xsd:string">Показывает текущее изменение курса.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.PitchRate</Name>
+    <Value xsi:type="xsd:string">Показывает текущую скорость изменения тангажа.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.RollRate</Name>
+    <Value xsi:type="xsd:string">Показывает текущую скорость изменения крена.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TargetSelector</Name>
+    <Value xsi:type="xsd:string">Инструмент для удобного просмотра, поиска и выбора целей.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.PhaseAngle</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние аппарата относительно целевого объекта.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.InterceptAngle</Name>
+    <Value xsi:type="xsd:string">Угол перехвата</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.RelativeVelocity</Name>
+    <Value xsi:type="xsd:string">Показывает относительную скорость между вашим аппаратом и целевым объектом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.RelativeSpeed</Name>
+    <Value xsi:type="xsd:string">Показывает разницу орбитальных скоростей между вашим аппаратом и целевым объектом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.RelativeInclination</Name>
+    <Value xsi:type="xsd:string">Показывает относительное наклонение между вашим аппаратом и целевым объектом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeToRelativeAscendingNode</Name>
+    <Value xsi:type="xsd:string">Время до пересечения аппаратом орбиты цели, двигаясь на север.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeToRelativeDescendingNode</Name>
+    <Value xsi:type="xsd:string">Время до пересечения аппаратом орбиты цели, двигаясь на юг.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.AngleToRelativeAscendingNode</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от аппарата до пересечения орбиты целевого объекта, двигаясь к северу от него.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.AngleToRelativeDescendingNode</Name>
+    <Value xsi:type="xsd:string">Угловое расстояние от аппарата до пересечения орбиты целевого объекта, двигаясь к югу от него.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.AltitudeSeaLevel</Name>
+    <Value xsi:type="xsd:string">Показывает высоту цели над уровнем моря.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.ApoapsisHeight</Name>
+    <Value xsi:type="xsd:string">Показывает высоту апоцентра цели относительно уровня моря (апоцентр — наивысшая точка орбиты).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.PeriapsisHeight</Name>
+    <Value xsi:type="xsd:string">Показывает высоту перицентра цели относительно уровня моря (перицентр — наинизшая точка орбиты).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeToApoapsis</Name>
+    <Value xsi:type="xsd:string">Показывает время до достижения целью апоцентра — наивысшей точки орбиты.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeToPeriapsis</Name>
+    <Value xsi:type="xsd:string">Показывает время до достижения целью перицентра — наинизшей точки орбиты.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.Distance</Name>
+    <Value xsi:type="xsd:string">Текущее расстояние между аппаратом и целевым объектом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.OrbitalPeriod</Name>
+    <Value xsi:type="xsd:string">Показывает время, за которое целевой объект совершает полный оборот по орбите.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.SemiMajorAxis</Name>
+    <Value xsi:type="xsd:string">Показывает расстояние от центра орбиты цели до её самой дальней точки.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.SemiMinorAxis</Name>
+    <Value xsi:type="xsd:string">Показывает расстояние от центра орбиты цели до её самой ближней точки.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.RelativeRadialVelocity</Name>
+    <Value xsi:type="xsd:string">Относительная радиальная скорость между вашим аппаратом и целевым объектом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeToRendezvous</Name>
+    <Value xsi:type="xsd:string">Приблизительное (линейное) время до минимального расстояния между объектами.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.InternalFlux</Name>
+    <Value xsi:type="xsd:string">Внутренний тепловой поток</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.ConvectionFlux</Name>
+    <Value xsi:type="xsd:string">Конвективный тепловой поток</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.RadiationFlux</Name>
+    <Value xsi:type="xsd:string">Радиационный тепловой поток</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CriticalPart</Name>
+    <Value xsi:type="xsd:string">Показывает, какая деталь ближе всего к своей максимальной температуре.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CriticalTemperature</Name>
+    <Value xsi:type="xsd:string">Внутренняя температура детали аппарата, наиболее близкой к своей максимальной температуре.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CriticalSkinTemperature</Name>
+    <Value xsi:type="xsd:string">Наивысшая внешняя температура на критической детали.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CriticalThermalPercentage</Name>
+    <Value xsi:type="xsd:string">Показывает, какую долю от своей максимальной температуры выдерживает критическая деталь.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.HottestPart</Name>
+    <Value xsi:type="xsd:string">Деталь аппарата, выдерживающая самую высокую температуру.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.HottestTemperature</Name>
+    <Value xsi:type="xsd:string">Наивысшая внутренняя температура на аппарате.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.HottestSkinTemperature</Name>
+    <Value xsi:type="xsd:string">Наивысшая внешняя температура на аппарате.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CoolestPart</Name>
+    <Value xsi:type="xsd:string">Самая холодная деталь</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CoolestTemperature</Name>
+    <Value xsi:type="xsd:string">Наименьшая внутренняя температура на аппарате.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Thermal.CoolestSkinTemperature</Name>
+    <Value xsi:type="xsd:string">Наименьшая внешняя температура на аппарате.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.Separator</Name>
+    <Value xsi:type="xsd:string">Создаёт линию для разделения подразделов в модуле.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.GuiSizeAdjustor</Name>
+    <Value xsi:type="xsd:string">Показывает элемент управления, позволяющий изменять размер графического интерфейса.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.SimulationDelay</Name>
+    <Value xsi:type="xsd:string">Управляет минимальной задержкой между обработкой симуляций аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.VectoredThrustToggle</Name>
+    <Value xsi:type="xsd:string">Показывает переключатель, позволяющий учитывать векторное отклонение тяги в симуляции аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.SystemTime</Name>
+    <Value xsi:type="xsd:string">Показывает системное время в 12-часовом формате (AM/PM).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.LogSimToggle</Name>
+    <Value xsi:type="xsd:string">Показывает кнопку, позволяющую при следующем запуске симуляции выводить дополнительную отладочную информацию.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TargetLatitude</Name>
+    <Value xsi:type="xsd:string">Показывает широту положения целевого аппарата на небесном теле. Широта — это угол от экватора до полюсов.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TargetLongitude</Name>
+    <Value xsi:type="xsd:string">Показывает долготу целевого аппарата на небесном теле. Долгота — это угол от нулевого меридиана тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PostBurnInclination</Name>
+    <Value xsi:type="xsd:string">Наклонение орбиты аппарата после манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PostBurnPeriod</Name>
+    <Value xsi:type="xsd:string">Период орбиты аппарата после манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.TripTotalDeltaV</Name>
+    <Value xsi:type="xsd:string">Суммарная дельта скорости всех манёвренных узлов.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.AtmosphericPressure</Name>
+    <Value xsi:type="xsd:string">Отображает текущее атмосферное давление.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeToTransferAngleTime</Name>
+    <Value xsi:type="xsd:string">Время до того момента, когда угол положения (фазы) станет равным углу перехода.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.BodyName</Name>
+    <Value xsi:type="xsd:string">Показывает название текущего небесного тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.HasAtmosphere</Name>
+    <Value xsi:type="xsd:string">Показывает, есть ли у текущего тела атмосфера.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.HasOxygen</Name>
+    <Value xsi:type="xsd:string">Показывает, есть ли у текущего тела богатая кислородом атмосфера.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.HighAtmosphereHeight</Name>
+    <Value xsi:type="xsd:string">Высота, на которой начинается верхняя атмосфера.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.LowSpaceHeight</Name>
+    <Value xsi:type="xsd:string">Высота, на которой начинается ближний космос.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.HighSpaceHeight</Name>
+    <Value xsi:type="xsd:string">Высота, на которой начинается дальний космос.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.SystemTime24</Name>
+    <Value xsi:type="xsd:string">Показывает системное время в 24-часовом формате.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.SystemDateTime</Name>
+    <Value xsi:type="xsd:string">Показывает системную дату/время в формате ISO 8601.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.RCSDeltaV</Name>
+    <Value xsi:type="xsd:string">Показывает текущую возможную дельту скорости от системы RCS.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.RCSIsp</Name>
+    <Value xsi:type="xsd:string">Показывает средний удельный импульс системы RCS.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.RCSThrust</Name>
+    <Value xsi:type="xsd:string">Показывает максимальную тягу от RCS-двигателей.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.RCSTWR</Name>
+    <Value xsi:type="xsd:string">Показывает отношение тяги к весу (TWR) для системы RCS при текущей гравитации.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.TimeTilClosestApproach</Name>
+    <Value xsi:type="xsd:string">Время до следующего максимального сближения с целью.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.SeparationAtClosestApproach</Name>
+    <Value xsi:type="xsd:string">Расстояние до цели в момент максимального сближения.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.SpeedAtClosestApproach</Name>
+    <Value xsi:type="xsd:string">Показывает разницу орбитальных скоростей между вашим аппаратом и целевым объектом при следующем сближении.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PostBurnRealtiveInclination</Name>
+    <Value xsi:type="xsd:string">Наклонение орбиты аппарата относительно цели после манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Orbital.PostBurnEccentricity</Name>
+    <Value xsi:type="xsd:string">Эксцентриситет орбиты аппарата после манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.ImpactMarker</Name>
+    <Value xsi:type="xsd:string">Показывает предполагаемую точку падения на поверхности и на карте.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.SurfaceDistanceToWaypoint</Name>
+    <Value xsi:type="xsd:string">Расстояние по дуге большого круга от текущего аппарата до путевой точки на поверхности.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Surface.BearingToWaypoint</Name>
+    <Value xsi:type="xsd:string">Пеленг на путевую точку по поверхности.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Gravity</Name>
+    <Value xsi:type="xsd:string">Текущая гравитация, воздействующая на аппарат.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SuicideBurnCountdown</Name>
+    <Value xsi:type="xsd:string">Время до начала тормозного манёвра («самоубийственного торможения»).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.SuicideBurnLength</Name>
+    <Value xsi:type="xsd:string">Показывает продолжительность тормозного манёвра.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.ElectricCharge</Name>
+    <Value xsi:type="xsd:string">Текущий и максимальный заряд электроэнергии на аппарате.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.LfOxRatio</Name>
+    <Value xsi:type="xsd:string">Отношение жидкого топлива к окислителю на аппарате. Более 100% означает, что у вас больше жидкого топлива, чем окислителя для стандартных ракетных двигателей, поэтому у вас есть избыток топлива для двигателей, работающих только на жидком топливе. Число в скобках — это количество избыточного жидкого топлива.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Throttle</Name>
+    <Value xsi:type="xsd:string">Показывает текущее запрошенное положение ручки газа (дросселя) в процентах.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.Glideslope</Name>
+    <Value xsi:type="xsd:string">Вертикальный угол между вектором скорости и горизонтом.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.AngleOfAttack</Name>
+    <Value xsi:type="xsd:string">Угол между вектором скорости и фюзеляжем аппарата в вертикальной плоскости. Подъёмная сила начинает снижаться при 30 градусах, но обычно следует держать его ниже 10, а в большинстве ситуаций — ниже 5.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.AngleOfSideslip</Name>
+    <Value xsi:type="xsd:string">Угол между вектором скорости и фюзеляжем аппарата в горизонтальной плоскости. Летательные аппараты должны держать его равным 0, выполняя развороты креном.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Vessel.AngleOfDisplacement</Name>
+    <Value xsi:type="xsd:string">Угол между вектором скорости и фюзеляжем аппарата.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.SurfaceDistanceToTarget</Name>
+    <Value xsi:type="xsd:string">Расстояние по дуге большого круга от текущего аппарата до цели на поверхности.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Rendezvous.BearingToTarget</Name>
+    <Value xsi:type="xsd:string">Пеленг на цель на поверхности.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.MinOrbitHeight</Name>
+    <Value xsi:type="xsd:string">Минимальная безопасная высота для выхода на орбиту.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.GeostationaryHeight</Name>
+    <Value xsi:type="xsd:string">Высота, на которой период обращения совпадает с периодом вращения тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.CurrentSoi</Name>
+    <Value xsi:type="xsd:string">Высота границы сферы действия (SOI).</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.BodyRotationPeriod</Name>
+    <Value xsi:type="xsd:string">Время одного полного оборота вокруг оси тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.BodyOrbitalPeriod</Name>
+    <Value xsi:type="xsd:string">Время одного полного оборота по орбите вокруг родительского тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.EscapeVelocity</Name>
+    <Value xsi:type="xsd:string">Скорость, необходимая для выхода из сферы действия, начиная с уровня моря.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.BodyMass</Name>
+    <Value xsi:type="xsd:string">Масса небесного тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.BodyRadius</Name>
+    <Value xsi:type="xsd:string">Радиус тела на уровне моря.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Body.BodyGravity</Name>
+    <Value xsi:type="xsd:string">Сила тяжести на поверхности тела.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.ClearSeparator</Name>
+    <Value xsi:type="xsd:string">Создаёт пустое пространство для разделения подразделов в модуле.</Value>
+  </SettingItem>
+  <SettingItem>
+    <Name>Miscellaneous.Crosshair</Name>
+    <Value xsi:type="xsd:string">Создаёт крест, который можно использовать как перекрестие прицела.</Value>
+  </SettingItem>
+</ArrayOfSettingItem>
