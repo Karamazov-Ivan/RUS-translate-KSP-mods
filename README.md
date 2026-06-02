@@ -10,9 +10,15 @@
 
 Перевод модов KSP
 -Antenna Helper Next
+
 -Contract Configurator
+
 -Dynamic Battery Storage
+
 -Kerbal Engineer (только подсказки (?))
+
 -Near Future Exploration
+
 -OPT
+
 -SCANsat
