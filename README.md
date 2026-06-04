@@ -15,7 +15,7 @@
 - Dynamic Battery Storage
 - Kerbal Engineer (только подсказки (?))
 - Near Future Exploration
-- OPT
+- OPT (Ломает RasterPropMonitor)
 - SCANsat
 
 Как скачать:
