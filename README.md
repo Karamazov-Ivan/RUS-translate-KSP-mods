@@ -17,6 +17,7 @@
 - Near Future Exploration
 - OPT (Только описание предметов. При попытке изменить названия предметов ломает RasterPropMonitor)
 - SCANsat
+- QuickGoTo (текстуры)
 
 Как скачать:
 
