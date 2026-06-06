@@ -18,7 +18,7 @@
 - OPT (Только описание предметов. При попытке изменить названия предметов ломает RasterPropMonitor)
 - SCANsat
 - QuickGoTo (Текстуры)
-- RasterPropMonitor (Добавляет поддержку кириллицы для мониторов. За адаптацию спасибо [@vzedra](https://github.com/vzedra?))
+- RasterPropMonitor (Добавляет поддержку кириллицы для мониторов. За адаптацию спасибо [@vzedra](https://github.com/vzedra?) [Источник](https://github.com/FirstPersonKSP/RasterPropMonitor/issues/157))
 
 Как скачать:
 
