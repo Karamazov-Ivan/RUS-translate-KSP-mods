@@ -13,11 +13,12 @@
 - Antenna Helper Next
 - Contract Configurator
 - Dynamic Battery Storage
-- Kerbal Engineer (только подсказки (?))
+- Kerbal Engineer (Только подсказки (?))
 - Near Future Exploration
 - OPT (Только описание предметов. При попытке изменить названия предметов ломает RasterPropMonitor)
 - SCANsat
-- QuickGoTo (текстуры)
+- QuickGoTo (Текстуры)
+- RasterPropMonitor (Добавляет поддержку кириллицы для мониторов. За адаптацию спасибо @vzedra )
 
 Как скачать:
 
