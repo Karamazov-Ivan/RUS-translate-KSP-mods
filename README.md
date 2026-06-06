@@ -15,7 +15,7 @@
 - Dynamic Battery Storage
 - Kerbal Engineer (Только подсказки (?))
 - Near Future Exploration
-- OPT (Только описание предметов. При попытке изменить названия предметов ломает RasterPropMonitor)
+- OPT (Только описание предметов. Изменение названия предметов ломает RasterPropMonitor)
 - SCANsat
 - QuickGoTo (Текстуры)
 - RasterPropMonitor (***Папки: ASET и JSI.*** Добавляет поддержку кириллицы для мониторов. За адаптацию спасибо [@vzedra](https://github.com/vzedra?) [Источник](https://github.com/FirstPersonKSP/RasterPropMonitor/issues/157))
