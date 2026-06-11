@@ -19,7 +19,7 @@
 - SCANsat
 - QuickGoTo (Текстуры)
 - RasterPropMonitor (***Папки: ASET и JSI.*** Добавляет поддержку кириллицы для мониторов. За адаптацию спасибо [@vzedra](https://github.com/vzedra?) [Источник](https://github.com/FirstPersonKSP/RasterPropMonitor/issues/157))
-
+- Achievements Updated
 Как скачать:
 
 <img width="558" height="556" alt="изображение" src="https://github.com/user-attachments/assets/3c589bd0-5212-4f34-b6e0-1bb79df80953" />
